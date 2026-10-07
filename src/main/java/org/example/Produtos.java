@@ -2,6 +2,7 @@ package org.example;
 
 public class Produtos {
 
+<<<<<<< HEAD
     public String getNome() {
         return nome;
     }
@@ -26,13 +27,19 @@ public class Produtos {
         this.estoque = estoque;
     }
 
+=======
+>>>>>>> origin/master
     String nome;
     double preco;
     int estoque;
 
 
 
+<<<<<<< HEAD
     //Metodo Construtor.
+=======
+    //Método Construtor.
+>>>>>>> origin/master
     Produtos(String nome, double preco, int estoque){
 
     this.nome = nome;
