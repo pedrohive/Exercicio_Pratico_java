@@ -2,6 +2,18 @@ package org.example;
 
 public class Produtos {
 
+    private String nome;
+    private double preco;
+    private int estoque;
+
+    //Metodo Construtor.
+    Produtos(String nome, double preco, int estoque){
+
+        this.nome = nome;
+        this.preco = preco;
+        this.estoque = estoque;
+    }
+
     public String getNome() {
         return nome;
     }
@@ -26,23 +38,9 @@ public class Produtos {
         this.estoque = estoque;
     }
 
-    String nome;
-    double preco;
-    int estoque;
-
-
-
-    //Método Construtor.
-    Produtos(String nome, double preco, int estoque){
-
-    this.nome = nome;
-    this.preco = preco;
-    this.estoque = estoque;
-    }
-
     void informaçõesProdutos(){
-        System.out.println(nome);
-        System.out.println(preco);
-        System.out.println(estoque);
+        System.out.println(getNome());
+        System.out.println(getPreco());
+        System.out.println(getEstoque());
     }
 }

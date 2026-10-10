@@ -8,6 +8,8 @@ public class Main {
         Produtos monitor = new Produtos("Monitor", 900,15);
 
         notebook.informaçõesProdutos();
+        mouse.informaçõesProdutos();
+
 
     }
 }
