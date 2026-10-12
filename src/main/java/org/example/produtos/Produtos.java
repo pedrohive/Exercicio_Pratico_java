@@ -1,4 +1,4 @@
-package org.example;
+package org.example.produtos;
 
 public class Produtos {
 
@@ -6,7 +6,7 @@ public class Produtos {
     private double preco;
     private int estoque;
 
-    //Metodo Construtor.
+    //metodo Construtor.
     Produtos(String nome, double preco, int estoque){
 
         this.nome = nome;
@@ -38,7 +38,7 @@ public class Produtos {
         this.estoque = estoque;
     }
 
-    void informaçõesProdutos(){
+    void informacoesProdutos(){
         System.out.println(getNome());
         System.out.println(getPreco());
         System.out.println(getEstoque());
